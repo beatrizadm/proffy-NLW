@@ -36,7 +36,7 @@
 }
 
 #search-teachers .input-block:focus-within::after {
-  width: calc(calc(100% - 3.2rem));
+  width: calc(100% - 3.2rem);
   height: 2px;
   content: "";
   background: var(--color-primary-light);
@@ -69,7 +69,7 @@
   }
 
   #page-teacher-list main {
-    padding: 32rem 0;
+    padding: 3.2rem 0;
     max-width: 740px;
     margin: 0 auto;
   }
